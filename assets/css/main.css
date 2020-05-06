@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
 
 /*
 	Dopetrope by HTML5 UP
@@ -76,7 +77,14 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		scroll-behavior: smooth;
 	}
+
+	a {
+		text-decoration: none;
+		color: black;
+	   } 
+	   
 
 	*, *:before, *:after {
 		box-sizing: inherit;
@@ -99,7 +107,7 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro';
+		font-family: 'Slabo 27px';
 		font-weight: 300;
 		color: #5d5d5d;
 		font-size: 14pt;
@@ -2077,13 +2085,13 @@ input, select, textarea {
 			font-weight: 900;
 			font-size: 2.5em;
 			letter-spacing: -0.035em;
-			line-height: 1;
+			line-height: 0;
 		}
 
 /* Nav */
 
 	#nav {
-		margin: 2.5em 0 0 0;
+		margin: 1em 0 0 0;
 	}
 
 		#nav > ul {
@@ -2173,36 +2181,39 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/test11.jpg");
+		background: rgb(255, 255, 255) url("../../images/xd.jpg");
 		background-position: center center;
-		background-size: auto 100%;
+		background-color: #d52349;
+		height: 400px;
+		background-size: cover;
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
-		padding: 8em 0;
-		margin: 4em 0 0 0;
+		padding: 0; 
+		margin: 2em 0 0 0;
 	}
 
 		#banner header {
-			background-color: rgba(26, 23, 23, 0);
+			background-color: rgba(255, 255, 255, 0);
 			display: inline-block;
-			padding: 2.5em 5em;
+			padding: 2.5em 3em;
 			border-radius: 5px;
 		}
 
 			#banner header h2 {
 				color: #fff;
-				font-weight: 700;
+				font-weight: 500;
 				font-size: 3em;
-				margin: 0 0 0.65em 0;
+				margin: 3em 0 0.65em 0;
 			}
 
 			#banner header p {
 				color: #d52349;
+				font-weight: 300;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
-				font-size: 1.5em;
+				font-size: 2em;
 			}
 
 /* Intro */
